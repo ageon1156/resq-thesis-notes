@@ -1,0 +1,701 @@
+{
+  "S1": {
+    "edge50pro": {
+      "file": "logcat_edge50.txt",
+      "pid": "13397",
+      "app_lines": 10638,
+      "first": "2026-02-19 18:23:17.250000",
+      "last": "2026-02-19 18:27:26.255000",
+      "duration_s": 249.0,
+      "sent_packets_total": 8,
+      "sent_by_type": {
+        "POSITION_APP": 8
+      },
+      "sent_by_type_detail": {
+        "POSITION_APP | unicast | hop_limit=default | want_ack=False | priority=BACKGROUND": 8
+      },
+      "ack_rtt": {
+        "n": 0
+      },
+      "ack_rtt_samples": [],
+      "want_ack_sent": 0,
+      "want_ack_unacked": [],
+      "ack_failures": 0,
+      "ble_queue": {
+        "queued": 8,
+        "success_true": 8,
+        "success_false": 0,
+        "latency_s": {
+          "n": 8,
+          "min": 0.074,
+          "median": 0.096,
+          "mean": 0.148,
+          "max": 0.306
+        }
+      },
+      "ble_keepalive": {
+        "count": 9,
+        "interval_s": {
+          "n": 8,
+          "min": 30.001,
+          "median": 30.002,
+          "mean": 30.003,
+          "max": 30.005
+        }
+      },
+      "position_broadcasts": {
+        "count": 8,
+        "interval_s": {
+          "n": 7,
+          "min": 32.771,
+          "median": 33.604,
+          "mean": 33.485,
+          "max": 33.97
+        }
+      },
+      "firmware_heartbeats": {
+        "!9e752d58": {
+          "count": 2,
+          "interval_s": {
+            "n": 1,
+            "min": 120.076,
+            "median": 120.076,
+            "mean": 120.076,
+            "max": 120.076
+          }
+        },
+        "!db582780": {
+          "count": 2,
+          "interval_s": {
+            "n": 1,
+            "min": 119.89,
+            "median": 119.89,
+            "mean": 119.89,
+            "max": 119.89
+          }
+        }
+      },
+      "errors_E_F": {},
+      "radio_errors": {},
+      "skipped_frames": {
+        "n": 0
+      },
+      "own_position": {
+        "fixes": 8,
+        "median_lat": 12.94951,
+        "median_lon": 80.12855,
+        "max_spread_from_median_m": 0.8
+      },
+      "map_recompose_log_lines": 10431,
+      "map_recompose_per_s": 41.9,
+      "phone_radio_outages_s": [],
+      "start_connect_to_mynodeinfo_s": [],
+      "auto_reconnects": []
+    },
+    "edge60pro": {
+      "file": "logcat_edge60.txt",
+      "pid": "28716",
+      "app_lines": 35592,
+      "first": "2026-02-19 18:23:34.840000",
+      "last": "2026-02-19 18:27:26.781000",
+      "duration_s": 231.9,
+      "sent_packets_total": 9,
+      "sent_by_type": {
+        "POSITION_APP": 8,
+        "TRIAGE_PIN_legacy_no_type": 1
+      },
+      "sent_by_type_detail": {
+        "POSITION_APP | unicast | hop_limit=default | want_ack=False | priority=BACKGROUND": 8,
+        "TRIAGE_PIN_legacy_no_type | broadcast | hop_limit=2 | want_ack=False | priority=HIGH": 1
+      },
+      "ack_rtt": {
+        "n": 0
+      },
+      "ack_rtt_samples": [],
+      "want_ack_sent": 0,
+      "want_ack_unacked": [],
+      "ack_failures": 0,
+      "ble_queue": {
+        "queued": 9,
+        "success_true": 9,
+        "success_false": 0,
+        "latency_s": {
+          "n": 9,
+          "min": 0.256,
+          "median": 0.285,
+          "mean": 0.3,
+          "max": 0.344
+        }
+      },
+      "ble_keepalive": {
+        "count": 8,
+        "interval_s": {
+          "n": 7,
+          "min": 30.002,
+          "median": 30.004,
+          "mean": 30.004,
+          "max": 30.007
+        }
+      },
+      "position_broadcasts": {
+        "count": 8,
+        "interval_s": {
+          "n": 7,
+          "min": 31.187,
+          "median": 32.559,
+          "mean": 32.361,
+          "max": 32.615
+        }
+      },
+      "firmware_heartbeats": {
+        "!9e752d58": {
+          "count": 2,
+          "interval_s": {
+            "n": 1,
+            "min": 120.609,
+            "median": 120.609,
+            "mean": 120.609,
+            "max": 120.609
+          }
+        },
+        "!db582780": {
+          "count": 2,
+          "interval_s": {
+            "n": 1,
+            "min": 120.161,
+            "median": 120.161,
+            "mean": 120.161,
+            "max": 120.161
+          }
+        }
+      },
+      "errors_E_F": {},
+      "radio_errors": {},
+      "skipped_frames": {
+        "n": 0
+      },
+      "own_position": {
+        "fixes": 8,
+        "median_lat": 12.9495,
+        "median_lon": 80.12851,
+        "max_spread_from_median_m": 0.7
+      },
+      "map_recompose_log_lines": 12850,
+      "map_recompose_per_s": 55.4,
+      "phone_radio_outages_s": [],
+      "start_connect_to_mynodeinfo_s": [],
+      "auto_reconnects": []
+    },
+    "cross_device": [
+      {
+        "from": "edge60pro",
+        "to": "edge50pro",
+        "kind": "TRIAGE_PIN_legacy_no_type",
+        "pin": "6f65aecd",
+        "sent": "2026-02-19 18:26:23.577000",
+        "status": "received_but_decode_failed",
+        "one_way_s_uncorrected": 2.292
+      }
+    ],
+    "phone_separation_m": 4.5
+  },
+  "S2": {
+    "edge50pro": {
+      "file": "logcat_edge50pro_live.txt",
+      "pid": "22379",
+      "app_lines": 159488,
+      "first": "2026-02-20 07:24:32.632000",
+      "last": "2026-02-20 07:55:34.177000",
+      "duration_s": 1861.5,
+      "sent_packets_total": 65,
+      "sent_by_type": {
+        "POSITION_APP": 56,
+        "HEARTBEAT_PING": 5,
+        "SILENCE_REPORT": 1,
+        "TEXT_SILENT_ALERT": 1,
+        "MANUAL_TRIAGE_PIN": 1,
+        "CLAIM_PIN": 1
+      },
+      "sent_by_type_detail": {
+        "CLAIM_PIN | broadcast | hop_limit=1 | want_ack=False | priority=HIGH": 1,
+        "HEARTBEAT_PING | unicast | hop_limit=2 | want_ack=True | priority=BACKGROUND": 5,
+        "MANUAL_TRIAGE_PIN | broadcast | hop_limit=2 | want_ack=False | priority=HIGH": 1,
+        "POSITION_APP | unicast | hop_limit=default | want_ack=False | priority=BACKGROUND": 56,
+        "SILENCE_REPORT | broadcast | hop_limit=2 | want_ack=False | priority=BACKGROUND": 1,
+        "TEXT_SILENT_ALERT | broadcast | hop_limit=2 | want_ack=False | priority=unset": 1
+      },
+      "ack_rtt": {
+        "n": 5,
+        "min": 3.743,
+        "median": 5.818,
+        "mean": 6.842,
+        "max": 13.317
+      },
+      "ack_rtt_samples": [
+        {
+          "id": "1183050544",
+          "kind": "HEARTBEAT_PING",
+          "to": "!9e75b4c4",
+          "rtt_s": 3.743
+        },
+        {
+          "id": "1183050548",
+          "kind": "HEARTBEAT_PING",
+          "to": "!db582780",
+          "rtt_s": 5.887
+        },
+        {
+          "id": "1183050553",
+          "kind": "HEARTBEAT_PING",
+          "to": "!db582780",
+          "rtt_s": 5.818
+        },
+        {
+          "id": "1183050558",
+          "kind": "HEARTBEAT_PING",
+          "to": "!db582780",
+          "rtt_s": 13.317
+        },
+        {
+          "id": "1183050565",
+          "kind": "HEARTBEAT_PING",
+          "to": "!db582780",
+          "rtt_s": 5.447
+        }
+      ],
+      "want_ack_sent": 5,
+      "want_ack_unacked": [],
+      "ack_failures": 0,
+      "ble_queue": {
+        "queued": 65,
+        "success_true": 65,
+        "success_false": 0,
+        "latency_s": {
+          "n": 65,
+          "min": 0.065,
+          "median": 0.099,
+          "mean": 0.162,
+          "max": 0.389
+        }
+      },
+      "ble_keepalive": {
+        "count": 55,
+        "interval_s": {
+          "n": 54,
+          "min": 30.0,
+          "median": 30.002,
+          "mean": 33.898,
+          "max": 60.003
+        }
+      },
+      "position_broadcasts": {
+        "count": 56,
+        "interval_s": {
+          "n": 55,
+          "min": 31.622,
+          "median": 33.281,
+          "mean": 33.234,
+          "max": 44.639
+        }
+      },
+      "firmware_heartbeats": {
+        "!9e752d58": {
+          "count": 15,
+          "interval_s": {
+            "n": 14,
+            "min": 119.928,
+            "median": 120.112,
+            "mean": 120.103,
+            "max": 120.341
+          }
+        },
+        "!9e75b4c4": {
+          "count": 15,
+          "interval_s": {
+            "n": 14,
+            "min": 118.814,
+            "median": 120.07,
+            "mean": 120.036,
+            "max": 120.573
+          }
+        },
+        "!db582780": {
+          "count": 10,
+          "interval_s": {
+            "n": 9,
+            "min": 118.832,
+            "median": 120.052,
+            "mean": 119.941,
+            "max": 120.365
+          }
+        }
+      },
+      "errors_E_F": {},
+      "radio_errors": {},
+      "skipped_frames": {
+        "n": 1,
+        "min": 35,
+        "median": 35,
+        "mean": 35,
+        "max": 35
+      },
+      "own_position": {
+        "fixes": 56,
+        "median_lat": 12.94951,
+        "median_lon": 80.12855,
+        "max_spread_from_median_m": 26.5
+      },
+      "map_recompose_log_lines": 56658,
+      "map_recompose_per_s": 30.4,
+      "silent_detection": {
+        "node": "!db582780",
+        "first_unanswered_ping": "2026-02-20 07:27:14.961000",
+        "marked_SILENT": "2026-02-20 07:29:14.985000",
+        "last_heard_derived": "2026-02-20 07:23:58.992000",
+        "last_heard_to_SILENT_s": 316.0,
+        "last_heard_to_CONFIRMED_s": 436.0,
+        "marked_CONFIRMED": "2026-02-20 07:31:14.992000",
+        "SILENT_to_CONFIRMED_s": 120.0,
+        "back_online": "2026-02-20 07:34:43.711000",
+        "outage_as_seen_by_detector_s": 328.7,
+        "pings_sent_to_node": 4
+      },
+      "phone_radio_outages_s": [],
+      "start_connect_to_mynodeinfo_s": [],
+      "auto_reconnects": []
+    },
+    "edge60pro": {
+      "file": "logcat_edge60pro_live.txt",
+      "pid": "28920",
+      "app_lines": 80605,
+      "first": "2026-02-20 07:22:50.785000",
+      "last": "2026-02-20 07:54:56.153000",
+      "duration_s": 1925.4,
+      "sent_packets_total": 48,
+      "sent_by_type": {
+        "ADMIN_APP": 2,
+        "STORE_FORWARD_APP": 2,
+        "POSITION_APP": 41,
+        "HEARTBEAT_PING": 1,
+        "WAYPOINT_APP": 1,
+        "MANUAL_TRIAGE_PIN": 1
+      },
+      "sent_by_type_detail": {
+        "ADMIN_APP | unicast | hop_limit=default | want_ack=True | priority=RELIABLE": 2,
+        "HEARTBEAT_PING | unicast | hop_limit=2 | want_ack=True | priority=BACKGROUND": 1,
+        "MANUAL_TRIAGE_PIN | broadcast | hop_limit=2 | want_ack=False | priority=HIGH": 1,
+        "POSITION_APP | unicast | hop_limit=default | want_ack=False | priority=BACKGROUND": 41,
+        "STORE_FORWARD_APP | unicast | hop_limit=default | want_ack=False | priority=BACKGROUND": 2,
+        "WAYPOINT_APP | broadcast | hop_limit=3 | want_ack=True | priority=unset": 1
+      },
+      "ack_rtt": {
+        "n": 4,
+        "min": 0.622,
+        "median": 1.973,
+        "mean": 2.489,
+        "max": 5.389
+      },
+      "ack_rtt_samples": [
+        {
+          "id": "343902479",
+          "kind": "ADMIN_APP",
+          "to": "!db582780",
+          "rtt_s": 0.622
+        },
+        {
+          "id": "343902484",
+          "kind": "ADMIN_APP",
+          "to": "!db582780",
+          "rtt_s": 1.255
+        },
+        {
+          "id": "343902486",
+          "kind": "HEARTBEAT_PING",
+          "to": "!9e752d58",
+          "rtt_s": 2.691
+        },
+        {
+          "id": "343902489",
+          "kind": "WAYPOINT_APP",
+          "to": "broadcast",
+          "rtt_s": 5.389
+        }
+      ],
+      "want_ack_sent": 4,
+      "want_ack_unacked": [],
+      "ack_failures": 0,
+      "ble_queue": {
+        "queued": 47,
+        "success_true": 46,
+        "success_false": 0,
+        "latency_s": {
+          "n": 46,
+          "min": 0.259,
+          "median": 0.315,
+          "mean": 0.34,
+          "max": 1.036
+        }
+      },
+      "ble_keepalive": {
+        "count": 64,
+        "interval_s": {
+          "n": 63,
+          "min": 30.001,
+          "median": 30.006,
+          "mean": 30.056,
+          "max": 33.108
+        }
+      },
+      "position_broadcasts": {
+        "count": 41,
+        "interval_s": {
+          "n": 40,
+          "min": 31.061,
+          "median": 31.296,
+          "mean": 45.242,
+          "max": 543.956
+        }
+      },
+      "firmware_heartbeats": {
+        "!9e752d58": {
+          "count": 11,
+          "interval_s": {
+            "n": 10,
+            "min": 119.841,
+            "median": 120.083,
+            "mean": 179.279,
+            "max": 711.89
+          }
+        },
+        "!9e75b4c4": {
+          "count": 10,
+          "interval_s": {
+            "n": 9,
+            "min": 110.761,
+            "median": 120.09,
+            "mean": 119.088,
+            "max": 120.531
+          }
+        },
+        "!db582780": {
+          "count": 11,
+          "interval_s": {
+            "n": 10,
+            "min": 119.876,
+            "median": 120.204,
+            "mean": 172.177,
+            "max": 640.477
+          }
+        }
+      },
+      "errors_E_F": {
+        "sh.google.debug: hiddenapi: Accessing hidden method Landroid/bluetooth/BluetoothGattDescriptor;->getInstanceId()I (runti": 10,
+        ": Error writing LocalConfig settings: SESSIONKEY": 2,
+        ": Error writing LocalConfig settings: DEVICE_UI": 2,
+        "ImeBackDispatcher: Ime callback not found. Ignoring unregisterReceivedCallback. callbackId: N remaining callbacks: N": 1
+      },
+      "radio_errors": {},
+      "skipped_frames": {
+        "n": 10,
+        "min": 31,
+        "median": 36.0,
+        "mean": 39.5,
+        "max": 59
+      },
+      "own_position": {
+        "fixes": 41,
+        "median_lat": 12.94948,
+        "median_lon": 80.12853,
+        "max_spread_from_median_m": 16.3
+      },
+      "map_recompose_log_lines": 50832,
+      "map_recompose_per_s": 26.4,
+      "phone_radio_outages_s": [
+        503.2
+      ],
+      "start_connect_to_mynodeinfo_s": [
+        0.918,
+        0.894
+      ],
+      "auto_reconnects": []
+    },
+    "cross_device": [
+      {
+        "from": "edge50pro",
+        "to": "edge60pro",
+        "kind": "CLAIM_PIN",
+        "pin": "f86396c5",
+        "sent": "2026-02-20 07:35:43.367000",
+        "status": "received_and_decoded",
+        "one_way_s_uncorrected": 2.692
+      },
+      {
+        "from": "edge60pro",
+        "to": "edge50pro",
+        "kind": "MANUAL_TRIAGE_PIN",
+        "pin": "f86396c5",
+        "sent": "2026-02-20 07:35:33.843000",
+        "status": "received_and_decoded",
+        "one_way_s_uncorrected": 2.495
+      },
+      {
+        "from": "edge60pro",
+        "to": "edge50pro",
+        "kind": "HEARTBEAT_PING",
+        "pin": "-",
+        "sent": "2026-02-20 07:34:55.698000",
+        "status": "received",
+        "one_way_s_uncorrected": 1.177
+      }
+    ],
+    "phone_separation_m": 4.0
+  },
+  "S3": {
+    "edge50pro": {
+      "file": "logcat_edge50pro_sep15.txt",
+      "pid": "25641",
+      "app_lines": 157,
+      "first": "2026-09-15 22:17:23.009000",
+      "last": "2026-09-15 22:42:14.046000",
+      "duration_s": 1491.0,
+      "sent_packets_total": 0,
+      "sent_by_type": {},
+      "sent_by_type_detail": {},
+      "ack_rtt": {
+        "n": 0
+      },
+      "ack_rtt_samples": [],
+      "want_ack_sent": 0,
+      "want_ack_unacked": [],
+      "ack_failures": 0,
+      "ble_queue": {
+        "queued": 0,
+        "success_true": 0,
+        "success_false": 0,
+        "latency_s": {
+          "n": 0
+        }
+      },
+      "ble_keepalive": {
+        "count": 0,
+        "interval_s": {
+          "n": 0
+        }
+      },
+      "position_broadcasts": {
+        "count": 0,
+        "interval_s": {
+          "n": 0
+        }
+      },
+      "firmware_heartbeats": {},
+      "errors_E_F": {},
+      "radio_errors": {},
+      "skipped_frames": {
+        "n": 0
+      },
+      "map_recompose_log_lines": 0,
+      "map_recompose_per_s": 0.0,
+      "phone_radio_outages_s": [],
+      "start_connect_to_mynodeinfo_s": [],
+      "auto_reconnects": []
+    },
+    "edge60pro": {
+      "file": "logcat_edge60pro_sep15.txt",
+      "pid": "26585",
+      "app_lines": 387,
+      "first": "2026-09-15 22:17:28.040000",
+      "last": "2026-09-15 22:45:15.723000",
+      "duration_s": 1667.7,
+      "sent_packets_total": 0,
+      "sent_by_type": {},
+      "sent_by_type_detail": {},
+      "ack_rtt": {
+        "n": 0
+      },
+      "ack_rtt_samples": [],
+      "want_ack_sent": 0,
+      "want_ack_unacked": [],
+      "ack_failures": 0,
+      "ble_queue": {
+        "queued": 0,
+        "success_true": 0,
+        "success_false": 0,
+        "latency_s": {
+          "n": 0
+        }
+      },
+      "ble_keepalive": {
+        "count": 0,
+        "interval_s": {
+          "n": 0
+        }
+      },
+      "position_broadcasts": {
+        "count": 0,
+        "interval_s": {
+          "n": 0
+        }
+      },
+      "firmware_heartbeats": {},
+      "errors_E_F": {},
+      "radio_errors": {
+        "Operation failed: Operation failed: Insufficient resources": 3,
+        "Discovery failed: Meshtastic service not found": 3
+      },
+      "skipped_frames": {
+        "n": 1,
+        "min": 37,
+        "median": 37,
+        "mean": 37,
+        "max": 37
+      },
+      "map_recompose_log_lines": 0,
+      "map_recompose_per_s": 0.0,
+      "phone_radio_outages_s": [],
+      "start_connect_to_mynodeinfo_s": [],
+      "auto_reconnects": [
+        {
+          "error_at": "2026-09-15 22:32:01.744000",
+          "cause": "Operation failed: Operation failed: Insufficient resources",
+          "error_to_force_reconnect_s": 10.011,
+          "force_reconnect_to_ble_connected_s": 2.331,
+          "error_to_ble_connected_s": 12.342,
+          "error_to_config_done_s": 15.728,
+          "error_to_nodeinfo_done_s": 18.72,
+          "service_not_found_retries": 2
+        },
+        {
+          "error_at": "2026-09-15 22:34:28.268000",
+          "cause": "Operation failed: Operation failed: Insufficient resources",
+          "error_to_force_reconnect_s": 10.011,
+          "force_reconnect_to_ble_connected_s": 1.223,
+          "error_to_ble_connected_s": 11.234,
+          "error_to_config_done_s": 14.472,
+          "error_to_nodeinfo_done_s": 17.928,
+          "service_not_found_retries": 2
+        },
+        {
+          "error_at": "2026-09-15 22:40:39.834000",
+          "cause": "Operation failed: Operation failed: Insufficient resources",
+          "error_to_force_reconnect_s": 10.007,
+          "force_reconnect_to_ble_connected_s": 1.395,
+          "error_to_ble_connected_s": 11.402,
+          "error_to_config_done_s": 14.451,
+          "error_to_nodeinfo_done_s": 17.171,
+          "service_not_found_retries": 2
+        }
+      ]
+    },
+    "cross_device": []
+  },
+  "hardware_targets": {
+    "heltec-v3": 79
+  },
+  "nodes_seen": {
+    "...d58 / ...tta": 135,
+    "...4c4 / ...4c4": 1,
+    "...780 / ...ma ": 104
+  },
+  "fatal_or_anr_lines": 0
+}
